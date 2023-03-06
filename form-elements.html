@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+    <style>
+        div {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Form</legend>
+            <div>
+                <label for="car">Choose Your Car:</label>
+                <select name="" id="car" size="0">
+                    <option selected disabled value="">Select</option>
+                    <option value="Nissan GTR">Nissan GTR</option>
+                    <option value="Audi Rs7">Audi Rs7</option>
+                    <option value="BMW M8">BMW M8</option>
+                    <option value="Porsche 911">Porsche 911</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Write Your Message: </label><br>
+                <textarea name="" id="" cols="60" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="">Choose Your Favorite Brand: </label>
+                <input list="brands" type="text">
+                <datalist id="brands">
+                    <option value="Porsche">
+                    <option value="Tesla">
+                    <option value="GMC">
+                    <option value="Nissan">
+                    <option value="Rols Royce">
+                </datalist>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
